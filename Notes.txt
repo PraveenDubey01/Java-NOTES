@@ -1,0 +1,2244 @@
+Corejava:
+========
+What is Java?
+> Java is an object oriented, platform independent high level programming language which is invented by James Goasling in late 1990/1995.
+
+Who is vendore company of java?
+Ans: Sun Microsystem
+
+Microsoft
+OS: Windows
+PL: .net
+DB: SQL Server 
+
+Sun:
+OS: Solaris
+PL: Java
+DB: My Sql
+  
+
+Edition/Module of java:
+> According to sun based on types of application there are modules of java is provided
+1. JSE/J2SE  (Java Standard Edition) => Corejava
+   a. stand alone application
+   b. Desktop Application
+
+2. JEE/J2EE  (Java Enterprise Edition) => Advance Java
+   a. Network Application
+   b. Web application (website)
+   c. Enterprise/Business Application
+   d. Distributed application
+   etc...
+
+3. JME/J2ME  (Java Micro/Mobile Edition) 
+   > Small Hand-Held application
+   > Mobile appl
+   > Games   
+
+Version of Java/JDK:
+=============== 
+> Java software available in the market only in the form of JDK (Java Development Tool Kit)  
+
+JDK 1.0
+> JSE
+> JEE
+> JME
+
+JDK 1.1
+> JSE
+> JEE
+> JME
+
+JDK 1.2
+> J2SE
+> J2EE
+> J2ME
+
+JDK 1.3
+> J2SE
+> J2EE
+> J2ME
+
+JDK 1.4
+> J2SE
+> J2EE
+> J2ME
+
+JDK 1.5 OR JDK 5
+> JSE
+> JEE
+> JME
+
+JDK 1.6
+JDK 1.7
+JDK 1.8   OR JDK 8
+JDK 1.9   OR JDK 9
+JDK 10
+JDK 11
+JDK 12
+JDK 13
+JDK 14
+
+Why java is considered as technology where as c and c++ simply known as programming language?
+Ans: Since java provides different-2 types of editions/environments by using which we can develop any type of applications. therefore java is known technology as well as programming language.
+
+JEE is a main edition it is further divided into sub editions:
+
+> JDBC
+> Servlet
+> JSP (Java Server Pages)
+
+> RMI (Remote Method Invokation)
+> JNDI (Java Naming Directory Interface)
+> EJB (Enterprise Java Beans)
+> JTA (Java Transaction API)
+> JPA (Java Persistance API)
+> JMS (Java Messaging Services)
+> Java Mail API
+> Web services (AWS)
+> JSF (Java Server Faces)
+> CORBA.........
+etc
+
+Advance Java: (JDBC + Servlet + JSP)
+
+What is the difference b/w stand alone application and desktop application?
+
+Features of Java (imp)
+======================
+1. Platform Independent
+2. Portable
+3. Highly Secured 
+4. Supports Dynamic code loading
+5. Strictly/Strongly typed check programming language
+6. Garbage Collected heap
+7. Robust
+8. Object oriented programming language
+9. Open source 
+
+1. Platform Independent:
+   What is Platform?
+   What is mean by platform independancy?
+   What is the advantage of java is having platform independent?
+   How java is platform independent where C is a platform dependent programming language?
+   How java is platform independent where jvm is a platform dependent?
+
+   Platform:
+   > Platform is combinition of OS and H/W (processor architecture).
+   > OS and H/W together known as platform.
+     OS: Windows,Linux,Mac,Solaris
+     H/W: Apple,IBM,Sun
+
+   Source code: 
+   > Whatever written by the programmar by following the syntactical rules of the underlying programming language known as source code.
+
+   Compile code:
+   > Whatever given by the compiler after compilation known as compile code.
+   > Compile code of c/c++ will be available in the form object code/executable code
+   > Compile code of java will be available in the form of bytecode.
+
+  source code: Programmar understandable code
+  m/c        : OS understandable code
+  bytecode   : JVM understandable code
+
+ 
+  Platform Independency is noway related to source code because source code of any programming language is always platform independent.
+
+  Platform independency will be tested based on compile code, If compile code of any platform(OS+h/w) can be directly executed without any recompilation with same or different platform then underlying code/program is known as platform independent.
+
+ Compile code of java technology can be run by the any platform(same/different) therefore java is considered as platform independent programming language.
+
+ Compile code of C language can be run by the same platform only therefore C is considered as platfrom dependent programming language.
+
+What is the advantage of platform independancy?
+
+
+Portable:
+> As we know compiler of any programming language can be available in three forms
+  a. 16bit compiler
+  b. 32bit compiler
+  c. 64bit compiler
+
+> If source code of any programming language always giving same output irrespective of different-2 compilers for same source code then underlying programming language is known as code portable. If output might be change compiler to compiler then underlying programming language is known as non-portable.
+
+> Output of java source code will never changed compiler to compiler therefore java is known completly portable programming language.
+
+> In some cases output of c program might be changed compiler to compiler therefore c is not compiletly portable.
+
+3. Java is highly secured programming language.
+   > Program of any language looks like in two forms
+     a. Data (Variable)
+     b. Logic (method)
+
+   > Security is noway related to logic of the program, if logics are missed the programmar accidently then it can recovered.
+
+   > Security is related to data of the program, if data got modified accidently then it cant be recovered by the programmar.
+
+   > Data of c program can be accidently modified by using pointer arithmetic operations. therefore is not secured.
+
+   > But java doesnt supports pointer arithmetics, there is no chance of modifying data of the program accidently hence java is considered as highly secured programming.
+
+  
+4. Java Supports Dynamic Code Loading:
+   What is code loading/loading?
+   > Loading is a process of loading required executable program from HD to RAM memory.
+
+   There are two types of loading
+   a. Static Code loading
+   b. Dynamic Code loaading
+
+Static code loading:
+> In this process the whole compile code will be loading at the beginning of execution of the program.
+
+> In this process there may be a chance reserving memory space un-necessory.
+> It seems to be best process according to performance of the program.
+
+Dynamic code loading:
+> In this process compile code will be loaded from HD to RAM on demand.
+> Using this feature we can execute any program in less space.
+
+> java supports dynamic code loading therefore we can execute java program with less memory space.
+
+5. Java is strongly typed check programming language.
+> Compiler of any language mainly responsible for checking syntaxical errors and code translation.
+
+> Ordinary compilers never perform following operations
+   1. unreachable statement
+   2. Un-necessary statements
+   3. Checking for illegal assignments
+
+> Java compiler also performs same job as well as it also checks unreachable, unnecessary, illegal assignments at the time of compilation. Therefore java is considered as strongly/strictly typed check programming language.
+
+Ex: unreachable statement: A statement that will never becomes part of execution.
+void main()
+{
+  printf("s1");
+  return;
+  printf("s2");
+}
+
+void main()
+{
+  while(0)
+  {
+    printf("Hello");
+  }
+  printf("World!");
+}
+
+
+Ex: Un-necessary statement: A statement that doesnt affects output/logic of the program.
+void main()
+{
+  int x = 10;
+  x + 5;
+  printf("%d",x);
+}
+
+Ex: Illegal Assignment
+void main()
+{
+  int x = 2.5; 
+  float x = 2.5;
+}
+
+6. Java supports garbage collected heap.
+   > This feature mainly takes care about dynamic memory deallocation.
+
+   > In any programming language programmar is responsible for dynamic memory allocation as well as dynamic memory deallocation
+
+   > But in java programmar is responsible only for memory allocation. Programmar is not responsible for memory deallocation. In java there is assistent program is available that will performs memory deallocation. which is known as Garbage collection.
+
+   > In java as a programmar we are not responsible for memory deallocation. Hence java doesnt supports destructor.
+
+7. Robust 
+   > The chance of crashing c program in middle of the execution is very high due to runtime errors, because c language doesnt supports in build error handling mechanism.
+
+   > The chance of crashing execution of java program is very less(zero) because java provides a rich support of in build error handling library (exception handling).
+
+   > Java provides parallal execution...etc
+
+   > Java provides exception handling,multithreading,garbage collection etc. therefore java is considered as robust programming language
+
+8. Java is object oriented programming language. Because java supports all concepts of oops
+   a. encapsulation  
+   b. inheritance
+   c. polymorphism
+
+9. Java is an open source programming language.
+   > oracle has provided source code of jdk along with their installation
+   > There is liecence/payment required for jdk installation.
+
+
+We can download and install jdk software from oracle.com
+
+Agenda:
+> HelloWorld! Application
+> Java compiler
+> bytecode
+> Rules for creating java source file
+> Jvm Architecture 
+> Class
+> Object
+
+
+Steps for creating and executing first java application:
+--------------------------------------------------------
+> After JDK installation our machine containing following tools related to java
+  a. Compiler
+  b. JVM
+  c. Java Tools
+
+> JDK software doesnt includes editor for creating/writing java application.
+Note: We can write java source by using any editor software
+      ex: notepad,notepad++,editplus,textpad
+
+Steps:
+> Open Command Prompt 
+  Press: Window + r
+  Type : cmd => ok
+  user>d:
+  d:\>md java7am
+  d:\>cd java7am
+  d:\java7am>md CLASS1
+  d:\java7am>cd CLASS1
+  d:\java7am\CLASS1>notepad HelloWorld.java
+
+  HelloWorld.java
+  =======================
+  class HelloWorld
+  {
+     public static void main(String[] argv)  
+     {
+        System.out.println("Hello World!");
+     }  
+  } 
+  //System,String
+  //Save
+
+How to compile java program?
+  cmd...>javac Filename.java
+
+How to run java program?
+  cmd...>java Classname
+
+  d:\java7am\CLASS1>javac HelloWorld.java
+     javac is not reconized as an internal or external command.....
+
+  d:\java7am\CLASS1>c:\java8\JDK8\bin\javac HelloWorld.java
+
+  d:\java7am\CLASS1>c:\java8\JDK8\bin\java  HelloWorld 
+  HelloWorld!
+
+Explaination of HelloWorld application:
+---------------------------------------
+> As we know java is an object oriented programming language therefore everything should be declare inside class including main() method.
+
+> Java doesnt supports non-member declarations
+Ex:
+Hello.java
+int x = 10;
+void main()
+{
+  
+}
+
+Hello.java
+class Hello
+{
+  int x = 10;  //valid
+  void m1()
+  {
+
+  }
+} 
+
+Rules for creating java source file:
+------------------------------------
+> file extension should be *.java
+
+> Every declaration(variable + methods) should be placed inside class
+
+> Any source file can have either public class declaration or default class(non-public) declaration.
+ Ex: Invalid
+ private class Test
+ {
+   
+ } 
+ Ex: Invalid
+ protected class Test
+ {
+   
+ } 
+ Ex:  valid
+ public class Test
+ {
+   
+ }  
+ Ex: valid
+ class Test
+ {
+   
+ } 
+ 
+> Any source file can have only one public class declaration.
+  Hello.java
+  ----------
+  public class Hello
+  {
+
+  }
+  public class Demo  //invalid
+  {
+
+  }
+
+> public class name must be same as source file name
+  Filename: Hello.java
+  --------------------
+  public class Demo
+  {
+
+  }
+
+> Any source file can have any number of default class declaration.
+> default class name may be same or different from a source file name
+  Filename: Hello.java
+  class Demo
+  {
+
+  }
+  class Test
+  {
+
+  }
+  class Hello
+  {
+
+  }
+
+> Any source file can have any number of class declaration.
+  public(1) + default(*)
+
+> Terminating a class declaration using semicolon is optional in java
+  Filename: Test.java
+  class A
+  {
+  };
+  class B
+  {
+  }
+> After compilation java compiler will *.class file 
+> Java compiler code will be stored inside *.class file
+> Java compiler doesnt creates machine code directly, it will creates bytecode and stores inside *.class
+
+What is source code?
+> Programmar understandable code
+
+What is m/c?
+> M/C is a OS understandable code
+
+What is bytecode?
+> bytecode is a jvm specific code.
+ 
+
+> For every class declaration java compiler will creates seperate new *.class file.
+
+  Filename: Hello.java
+  class A{}
+  class B{}
+  class C{}
+  public class Hello{}
+
+  >javac Hello.java
+   A.class
+   B.class
+   C.class
+   Hello.class
+
+> Execution of java program also starts from a main() method
+
+> main() method declaration can be placed inside any type of class.
+
+> We can can main() method declaration either inside all classes or limited class.
+
+> From a command prompt we can execute only those classes that contains valid declaration of main() method.
+
+main() method specific rules (In order to execution):
+> main() method should be declared as public and static 
+> Since main() method doesnt return any value therefore its return type is void.
+
+> parameter type for main() method should be String type of array.
+
+Q: Is it possible to override main() method?
+Ans: No, since main() method is a static method as we know static methods can be overridden.
+
+Q: Is it possible to overload main() method?
+Ans: Yes
+
+Working of JVM(Imp):
+> JVM stands for Java Virtual Machine.
+> JVM is a main process which will makes java as platform independent.
+
+> JVM is a main process which is divided into three modules/sub processs
+1. Class Loader
+2. Byte code varifier
+3. Java Interpreter (JIT compiler)
+
+Class Loader:
+> It will loads required bytecode(class file) from hard disk to RAM memory.
+
+> If require class is not available in classpath location then then class loader may throw run time error.
+
+> After loading a class it will hand over the process to the bytecode varifier
+
+Bytecode varifier:
+> It will checks the format of loaded byte code is it available in propure jvm supported form or not.
+
+> If bytecode instructions already got currupted then it may throw ClassFormatError.
+
+Java Interpreter:
+> It translates java bytecode(compile code) into platform specific executable format(m/c)
+
+Why main() method declared as public in java?
+Ans: Since main() is called by the JVM from somewhere outside class in order to providing access of the main() from outside class it should be declared as public.
+
+Why main() mehtod declared as static in java?
+Ans: 
+> Since main() is called by the jvm using classname, as we know using class name only static members are allow to access.
+  
+
+Interpretion System.out.println()?
+> Here println() is a non-static method of java.io.PrintStream class.
+
+> By using this method we can display any type value/message on the monitor.
+
+> By using println() we can display only one value.
+
+
+out: 
+> out is a readymade/predefine object(stream) of PrintStream class.
+
+> by using out we can call println() or any method of PrintStream
+
+> out is a static data member of System class
+
+System:
+> System is api class in java which will provides system level functionalities/services
+
+> System class has readymade object of PrintStream class as out.
+ 
+What is encapsulation?
+> Encapsulation is a process of binding access permission of data members to its related member function.
+
+> encapsulation is a concept of oops.
+> encapsulation is a way of grouping data and related operations as a single entity.
+
+What is class?
+> Class is a practical implementation of encapsulation
+> Class is a way of placing data members and related member function into single place
+> class is a logical representation of an object.
+
+> class is a blue-print of an object.
+> class is an user define abstract datatype.
+ 
+ 
+
+syntax:
+  modifiers class Classname  //public,abstract,final
+  {
+    variable decl
+
+    method decl
+  };
+
+> Since class is a logical representation therefore memory is not allocated for its variable based on class declaration.
+
+> Class doesnt takes memory space.
+
+Object:
+> Object is an instance of class.
+Note: Instance is a memory representation of class variables
+ 
+> Object is a physical representation of class variables.
+
+Note: Class is never responsible for providing any kind of services, Actual services provided by the objects.
+
+Syntax: 
+   Classname  ref = new Classname();
+    
+How many way of creating objects in java?
+ans:
+1. using new keyword
+2. using newInstance() method of Class class
+3. using newInstance() method of Constructor
+4. using cloning approach
+5. using factory method
+6. using deserialization  
+
+What is SBI property of an object?
+Types of Object?
+
+What is SBI property of an object?
+
+> SBI stands for State Behaviour and Identity of an object.
+
+What is mean by state of an object?
+
+> Data present inside any object in the form of data member(variables) of the class known as State of that object.
+> State of two objects may be same or different
+
+What is mean by behaviour of an object?
+> Objects of same class have always same behaviour
+> Methods available for any object is nothing but behaviour of that object
+  Ex: Behaviour of Car class object: start(),run(),stop()
+      Behaviour of Dog class object: jumping(),barking()
+      Behaviour of Student class object: eating(),sleeping(),
+      Student: Amit,Manoj: 
+      Car    : I20
+          
+What is identity of an object?
+> Identity of an always represented by the memory address.
+> Since two objects cant have same memory address, therefore we can say two or more objects can be uniquely identified based on memory address.
+
+Object: state,behaviour,identity
+ 
+Types of object:
+----------------
+> Based on state of an objects, it is divided into two categories
+1. Mutable
+2. Immutable
+
+How to create object in java(using new)?
+Syntax:
+  Classname  ref = new Classname();
+
+   C++:  
+       Point * ptr = new Point();  //ptr++; valid
+   Java: 
+      Point  ref = new Point();    //ref++; invalid
+
+   
+Most Imp:
+
+Types of Variables:
+-------------------
+> Based on types of stored contents/data variables are divided into two categories
+
+1. primitive variables(value type)
+   > Any variable which can store literal values directly known as primitive variables
+
+   > For providing declaration of primitive variables there are eight primitive datatypes available  in java
+     Datatype: byte,short,char,int,long,float,double,boolean   
+     datatype var;
+     double   x;
+ 
+     Default value of byte,short,char,int,long,float,double is 0
+     Default value of boolean type is false.
+
+2. reference variable(address type)
+   > Any variable which can store memory address of an object known as reference variable.
+
+        Boolean  a;  //ref
+        int b[];     //ref
+        Int  a;      //ref  
+        Girraj g;    //ref
+        Jit j;       //ref
+   > default value of any reference variable is null.
+   > null can be assigned inside any type of reference variable
+      
+ 
+Based on purpose and positions variables further divided into three categories:
+1. Local variable
+
+2. non-static variable/instance variable/object variable/non-static data members/field/property/attributes
+
+3. static variable / static data member / class variable
+
+
+Ex:
+class Demo {
+   static int x;  //static variable
+   int y;         //non static variable
+  
+   void m1(){
+     int z;       //local variable 
+      
+   }
+}
+ 
+Local Variable:
+---------------
+> Any variable which is directly declared inside method known as local variables.
+
+> All local variables are created inside stack whenever execution control comes inside method body/block.
+
+> Local variables got deallocated whenever execution of any function is completed.
+
+> local variables can access only inside current method/block
+
+> Default value is not available for local variable.
+
+Note: We must initialize local variables before its first use.
+
+> The only applicable modifiers for local variables are final and strictfp
+ 
+Non-static variables / instance variable / data members:
+> Any variable declaration provided inside body of class but outside method body without using static modifier known as instance variables in java.
+  syntax:
+     class Classname{
+        datatype vname;
+        .........
+     }
+Whenever memory is allocated for instance variable?
+ 
+How many times memory is allocated for instance variables?
+
+Whenever instance variables got deallocated?
+
+How many way of accessing instance variables?
+
+
+Whenever memory is allocated for instance variable?
+> Instance variables are automatically created whenever any class is instantiated 
+
+> Whenever any object is created then memory is allocated for non-static variable of that class.
+ 
+> Creating object is nothing but it is a process of allocating memory space for instance variables.
+
+Whenever memory deallocation is performed for instance variable?
+> Instance variables are automatically deallocated whenever any object destroy by the garbage collection.
+
+How many times memory is allocated for instance variables?
+> For every object jvm will creates a seperate copy of instance variables.
+
+> Number of allocation of instance variables depends upon number objects of that class.
+
+What is the default value of instance variable?
+> All primitive variables having their default value is zero excepting boolean. Default value of boolean type of variable is false.
+
+> if any instance variable is reference types then its default value is null.
+
+Working of new keyword/operator:
+> It will creates new object inside heap area
+> By using new keyword we can create object of any java class
+> It will completes object creation process in five steps
+1. Allocating memory space for non-static variables inside heap area in the form  of objects.
+
+2. Initializing all instance variable by their default value based on datatype.
+
+3. Executing non-static block of current class.
+
+4. Calling constructor of instantiated class
+
+5. Returning address of created object.
+
+Note: If memory space is not available then it will returns null without creating any object.
+
+> Two objects are always independent from each other.
+
+> Any object can have any number of reference variables.
+> Any reference can point only one object at time. But any reference can point multiple objects one-by-one.
+
+> We can initialize instance variables explicitly.
+  Ex:
+    class Test{
+       int x = 10;  valid
+       .......
+    }
+
+> Instance variables can be initialized either statically or dynamically.
+  Ex:
+    class Test{
+       int a = 10;  //static initialization
+       int b = a;   //dynamic initialization
+       int c = a * 5;  //......
+       int d = m1();
+       int m1(){
+         return 0;
+       }
+    }
+> Instance variable declaration can be provided anywhere in the class.
+ 
+  Ex:
+    class Test{
+       void m1(){
+         System.out.println(x);
+       }
+
+       int x = 10;           
+    }
+
+How many way of accessing instance variables?
+> Instance variable/members can accessed only reference pointing object.
+
+> If you are trying to accessing any instance variable using null reference then this code will compile successfully because compiler only checks for initialization. But this code will failed at runtime. In such situation jvm will throw runtime exception known as NullPointerException.
+
+Note: Inside instance area (non-static method,non-static block, constructor block) non-static variable of same/current class can be directly accessed
+
+Ex1:
+class Test1 {
+	int x; //instance variable
+
+	void m1(){  //instance area
+            System.out.println(x);   //valid 
+	}
+	static void m2(){   //static context
+            System.out.println(x);  //invalid
+	}
+}
+Ex2:
+class Test {
+	int x; //instance variable
+}
+class Demo {
+	void m1(){   
+           System.out.println(x); //invalid   
+	}
+	static void m2(){    
+          System.out.println(x); //invalid 
+	}
+}
+
+
+What is the purpose of instance variables?
+class Account
+{
+   double balance;
+   int accountno;
+
+   void withdrawl(int amount){
+     balance = balance - amount;
+   }
+   void deposit(int amount){
+     balance = balance + amount
+   }
+   void checkBalance(){
+     print(balance);
+   }
+}     
+class Bank
+{
+  void calInterest(...){
+    Account acc=new Account();
+    acc.balance = acc.balance + interest;
+  }
+}
+3. Static variable / Class Variable:
+------------------------------------
+> Any variable declared inside class but outside method by using static modifier known as static variable.
+
+  class Test{
+     static int x;
+     .........
+  }
+
+Q: Whenever memory is allocated for static variables?
+> Static variables are created inside data area/segment at the time of class loading.
+
+> Whenever any class is loaded from HD to RAM memory at that time memory is allocated for all static variable of loading class.
+
+
+Q: How many times memory is allocated for static variables?
+> Since loading is a one time process therefore memory allocation for static variables performed only once for an execution.
+
+Q: How many way of accessing static varaibles?
+1. Using Classname
+2. Using reference pointing object
+3. Using reference pointing null
+
+Note: After memory allocation all static variables automatically initialized by their default value.
+
+Note: Anywhere inside within a current class static variables can be directly access.
+
+> If local and static variable having same name, then local variable will gets high priority over the static variables.
+
+Consider:
+  class Test{
+     static int x = 10;
+
+Accessing static variable using class name:
+     System.out.println(Test.x);
+Accessing static variable using reference pointing object:
+     Test t = new Test(); //t is pointing Test object
+     System.out.println(t.x);
+
+Accessing static variable using reference pointing null:
+     Test t = null;
+     System.out.println(t.x);
+
+> Within a class we cant declare static and instance variables with same names.
+> Since static variables can be accessed directly by using class name therefore it is also known as class variable.
+
+Why static variable?
+Ans:
+> If you want share an information/data among all objects of that class then you should go for static variables.
+
+Calc(+,-,*,/)
+-------------
+class Arithmetic
+{
+   int add(int x,int y){
+      return x + y;
+   }
+   int sub(int x,int y){
+      return x - y;
+   }
+   int mul(int x,int y){
+      return x * y;
+   }
+   int div(int x,int y){
+      return x / y;
+   }
+}
+ 
+class Arithmetic
+{
+   static int x,y;
+   int add( ){
+      return x + y;
+   }
+   int sub( ){
+      return x - y;
+   }
+   int mul( ){
+      return x * y;
+   }
+   int div( ){
+      return x / y;
+   }
+}
+
+
+Agenda:
+> Types of comments
+> API Documentations
+> javap command
+> java Decompiler
+> path vs classpath
+> Keywords vs Identifiers
+> Datatypes
+> String (most imp)   
+> Regular Expression
+> Methods of Objects
+> Operators
+> Array 
+> var length args (...)
+> Command Line arguments
+> Control Flow Statement(if....switch...loops)
+
+OOPS:
+> this reference
+> Types of member initializer blocks
+> Wrapper Classes (imp)
+> Access Modifiers
+> Package
+> Polymorphism
+  > overloading
+  > overriding
+> Inheritance
+> abstract class
+> Interface
+> Inner class
+> Exception Handling and Assertion
+> IO Operations
+  > Working of File
+  > Streams
+  > Ser vs des
+  > Socket/networking (client+server)
+> Multithreading
+> Garbage collection
+> Collection Framework(DS)
+> Working with Date and Time (I18N)
+> JDK8 and JDK9 new features
+
+ 
+Types of Comments:
+What is comments?
+> Comments are valid java statements which is ignored by the compiler during compilation.
+
+> By using comments we can provide java documentations.
+
+There are three types of comments available in java:
+1. Single line comment(//)
+2. Multiline comment(/*....*/)
+3. Documentation comment (HTML comments)
+
+Single Line Comment:
+> By using // we can write single line documentation
+  // This is java comment
+
+Multiline comments:
+ /*
+   ...........
+ */
+> By using /*...*/ we can write multiline documentations.
+
+Note: single line and multiline comments doesnt visible in html documentation which is created by using javadoc.
+
+Documentation comments:
+  /**
+    *  Line1
+    *  Line2
+    */
+
+> It is visible in html documentation
+
+How create java documentation?
+> Oracle has provided javadoc command(Tool) by using which we can create java documentation.
+  syntax:
+        > javadoc Filename.java
+        > javadoc *.java
+
+What is API?
+> API stands for application programming interface.
+ 
+> If we are creating new java class by using functionalities of an existing class then existing class acts like an api to the newly defined class.
+Ex:
+ class A{}
+ class B{
+   m1(){
+     new A();
+     System.out.println("inside m1");
+   }
+ }
+
+ Here class A,System acts like an api to the class B
+
+
+> API class may be user define or predefine.
+  
+What are the important jdk tools?
+> At the time of jdk installations a lot of java tools are available to the programmar
+  ex: javac,java,javadoc,javap,jar
+
+> By using javap we can display prototype declaration of any java command.
+  syntax: javap packname.Classname
+
+Java Decompiler:
+----------------
+What is compilation?
+> Compilation is a process of translating source code into compile code. Compilation is performed by the compiler.
+
+What is decompilation?
+> Decompilation is a process of translating compile code into source code. This process can be completed by using decompiler.
+
+> C and C++ supports only compilation, it doesnt supports decompilation.
+
+> Java supports comilation as well as decompilation.
+
+> Along with jdk  installation compiler software by default available to the machine. But oracle doesnt provides java decompiler for decompilation purpose.
+
+We can use third party given decompiler software just by downloading from internet
+  Google: jad
+  >jad Classname.class
+  >jad -o -r -sjava Classname.class
+
+How to make available decompiler to the OS?
+Step1: download jad.exe from google
+Step2: extract downloaded *.rar file
+Step3: copy extracted jad.exe file inside java bin directory
+       ex: c:\Java\jdk8\bin
+Step4: jad Classname.class
+       jad -o -r -sjava Classname.class
+
+path vs classpath:
+------------------ 
+ 
+> Path and classpath is an environment variables which is available at OS level.
+
+There are two types of environment variables
+1. user variables (local)
+2. system variables (global)
+
+As we know currently popular OS are multi-user OS.
+> User variables can be accessed only within current user account.
+> System level environment variables can be accessed inside any user account.
+
+What is path?
+> Path is an environment variable which is used by OS for searching the location of exe/bat/com files
+
+What is .com?
+
+What is the diff b/w .exe and .com?
+ 
+executable files:
+> .exe,.bat,.com(m/c)
+
+path=c:\f1
+
+  c:\f1\a.exe (low)
+  c:\f1\a.com (high)
+ 
+> a => executable (HD->RAM)- Device Driver
+
+> From a command prompt OS can access only those executable files thats location available in path variable.
+
+What is classpath?
+
+path      => OS  => .exe
+classpath => JVM => .class
+
+classpath:
+----------
+> classpath is an environment variable which is used by JVM for searching the location of *.class file/package/*.jar files
+
+> Jvm can access only those *.classfiles/package/*.jar files thats physical location available in classpath variables.
+ 
+> By default environment classpath doesnt exist in our machine.
+  
+How many way of setting/creating environment variables?
+> There are two way
+1. using dos prompt
+   > This is temporary changes in environment variables, which is available current cmd window only
+
+   We can create or set value for any environment variable using set command. By using echo command we can check current value of any environment variable
+   >set classpath=.;
+   >echo %classpath%
+
+2. using window
+   > This is permananet changes.
+   Process:
+   Open mypc window > Right click on any empty place
+   > Advance System settings > Environment variables(button)
+ 
+How many way of setting classpath:
+> There are three way
+1. Permanent setting:
+   Using environment variable window
+2. Temporary setting:
+   Through command prompt using 'set' command
+   > set classpath=location
+3. Command Level Setting:
+   > java -cp location Classname.class
+
+Keywords vs Identifier:
+=======================
+
+Reserved words(53):
+-------------------
+There are 53 reserved words available in java
+1. In which 50 are reserved keywords
+   a. used keywords(48)
+   b. unsed keywords(2)
+      ex: goto,const
+2. In whic 3 are reserved literals
+   > Reserved literals are used for assignment purpose
+     null,true,false
+
+Note: In java goto and const also keywords but it cant be used at program level.
+
+There are 48 used keywords available in java
+1. Keywords related to datatype (9)
+   byte,short,char,int,long,float,double,boolean,void
+
+2. Keywords related to control flow statement (11)
+   if,else,switch,case,default,do,while,for,break,continue
+   return
+
+3. Keywords related to exception handling(6)
+   try,catch,finally,throw,throws,assert(1.4)
+
+4. Keywords related to class/interface/enum (5)
+   class,interface,enum,this,super
+
+5. Keywords related to inheritance(2)
+   extends,implements
+
+6. Keywords related to modifiers(8)
+   private,protected,public,final,abstract,static,native, synchronized
+ 
+7. Keywords related to package(2)
+   package, import
+
+8. Object related keywords
+   new  
+9. Keywords related variable declaration (1)
+   transient
+10. Others (1)
+   strictfp
+ 
+Note: All predefine API class names, method names, variable names are comes under the category of identifiers.
+
+Identifier:
+-----------
+> Identifiers are user assigned/given names.
+> Identifiers are user given names
+> Usually identifiers are variable names, class names, method names, interface/enum names, package names
+
+
+Names rules for identifiers:
+1. Identifier can contains
+   A-Z
+   a-z
+   0-9
+   - (underscore)
+   $ (dollar)
+2. Identifier cant start with digits
+   int m1,m2;  valid
+   int 1m,2m;  invalid
+
+3. Identifiers are case sensitive
+   int AGE,age,Age,aGe;  valid
+
+4. Reserve words cant be used as an identifier name
+   int do;          invalid
+   int transient;   invalid
+
+5. There is no max length of identifier, but it recommended to use maximum length upto 15. 
+
+Ex:
+  student fee    - invalid
+  student$fee    - valid
+  student1       - valid
+  std@fee        - invalid
+  
+Conventions for creating identifiers:
+> Conventsions are not rules it is industry standards.
+1. First letter of class name should be in uppercase
+   Employee,Customer,Account,McaStudent 
+
+2. First letter of all inner words(classname,variable,method) should in upper case
+   class BcaStudent{}
+   studentFee(){}
+   int studentFee;
+
+3. all letters of final(constant) variables should in uppercase 
+   final double PI=3.14; 
+
+
+Basic datatype or standard datatype or predefine primitive datatype:
+
+> Datatype is an information about variables regarding
+  a. size
+  b. range
+  c. type of data/contents
+
+There are eight primitive datatypes available in java:
+------------------------------------------------------
+Datatype	size		Range
+-------------------------------------------------------------
+byte		1byte		-128 to 127
+ 
+short           2bytes          -32768 to 32767
+
+char(unsigned)  2bytes          0 to 65535
+
+int             4bytes          -2147483648 to 2147483647
+
+long		8bytes		-2^63 to 2^63 - 1
+
+float		4bytes		-3.14*10^38 to 3.14*10^38
+
+double          8bytes          -1.7*10^308 to 1.7*10^308
+
+boolean		JVM dependent   (true/false)
+     
+
+Type of result of arithmetic expression:
+   a  @  b  = max(type of a,type of b,int);
+   int @ int = max(int,int,int) = int
+   long @ int = max(long,int,int) = long
+   float @ long = max(float,long,int) = float
+   double @ float = max(double,float,int) = double
+   short @ byte = max(short,byte,int) = int
+   byte @ byte = max(byte,byte,int) = int
+   double > float > long > int
+   short @ char => int
+  
+Literal:
+--------
+What is literal?
+> Literal is a constant values which cant be changed
+> Literal is a list of constant values which is available for assignment purpose.
+
+Types of literal:
+1. character type:
+   Single coate's representation: 'a','A','@','5',' '
+   Unicode character literal:  \uxxxx, '\uxxxx'
+
+2. integer literal
+   a. octal integer literal: 010,0532,020
+                            invalid: 018,092
+   b. decimal integer literal: 15,33542
+   c. hexa decimal integer literal:
+       0x15,0xface,0xabc431
+       0xbeer   invalid
+3. long literal:
+   octal long: 015L,015l
+   long decimal: 15l,15L
+   long hexa dec: 0x15l,0x15L,0xfaceL
+4. float literal:
+   decimal representation:  2.5f,1.0f
+                  15.0f,015.0f,  valid
+                  0x15.0f    invalid
+5. double literal:
+   2.0,2.5,015.0
+   0x15.0  invalid
+
+6. boolean literal:
+   true,false
+
+7. String literal:
+   "abc","abc123","15","","a"
+
+Default/implicit conversion:
+ byte > short > int > long > float > double 
+ char > int > long > float > double
+ type1 = type2   valid: Range(type1) >= Range(type2)
+ 
+     
+byte:
+======
+> size is 1byte(8bits)
+> Range: -128 to 127
+> It can store integer type of literal within a range of -128 to 127 ; 
+
+> inside byte type of variable we can assign either byte type of variable or integer literal which is a ranged b/w -128 to 127.
+
+> inside byte variable we can also assign a character literal 
+whose ascii value less then or equals to 127.
+  Ex:
+      byte x = 10;  valid: implicit conversion b/w int to byte
+      byte a = x;   valid
+      byte b = 'A'; valid
+      byte c = 10L; invalid
+      byte d = 1.0; invalid
+      byte e = 1.0f; invalid
+      int x = 10;
+      byte y = x;  invalid
+
+Identify which is odd expression?
+  byte x = 10;
+a. x = x + 1;
+b. x++;
+c. x = (byte)(x+1);
+ans: a
+   
+What is the purpose of byte datatype?
+Ans: It is very usefull in stream operations.
+
+byte x = -128;
+x = (byte)(x - 1);
+System.out.println(x);
+output: 127
+
+short:
+size: 2bytes
+range: -32768 to 32767
+
+> It is best suitable for 16bit boards(OS), but now a days 16bit boards becomes outdated therefore short datatype also becomes an outdated datatype.
+
+> It is rarely used type in java.
+
+> All assignment rules are same as byte datatype, short type of variable can store short type as well as byte type.
+
+Ex:
+  short x = 32767;  valid
+Ex:
+  int x = 32767;
+  short y = x;      invalid
+  short a = 10L;    invalid
+  short b = 10.0;   invalid
+  short c = 10.0f;  invalid
+
+Ex:
+  byte x = ?;    -128 to 127
+  short y = x;   valid
+Ex:
+  short x = ?;
+  x = x + 1;    Possible lossy conversion...int to short
+  
+char x = ?;
+byte a = x;
+short b = x;
+
+
+char:
+-----
+> size: 2bytes
+> range: 0 to 65535
+Note: char is an unsigned datatype in java. Therefore we cant assign negative number inside char type of variable.
+  
+    char x = -1;  Valid in C and C++ but invalid in Java.
+
+What is character set?
+> character set is group of distinct symbols that can be used underlying programming language.
+  
+Who is providing character set?
+> character sets are industry standards which is provided by the the software organizations.
+
+C/C++ supports ANSI character set, there are 256 distinct symbols are available in ANSI/ASCII
+  ANSI: A-Z,a-z,+ - % > 0-9 
+  
+Java supports unicode character set, there are 65536 distinct symbols are available in unicode character set.
+
+In order store ascii value of unicode character(0 - 65535) we have required minimum 16bits therefore size of char in java is 2byte.
+
+char literal:
+-------------
+1. single coate's represetation
+   '!'  '$'  'A'  '5'
+2. unicode representation
+   Format:  \uxxxx
+   Here xxxx is nothing but is is hexa decimal digits (0-9, a-f)
+   'A' => 65 => 41
+   \u0041  =>  A 
+   '\u0041' => 'A'
+ 
+char x = 'a';
+printf("%d %c",x,c);
+
+How to display ascii value of any character using println()?
+Ans: sop((int)chr);
+     sop((int)'A');  => 65
+     sop((int)'0');  => 48
+How to display character for given ascii value?
+ans: sop((char)65);
+Ex:
+public class Sample {
+	static int ऐज(int ऐज){
+		return ऐज+2;
+	}
+	public static void main(String args[]) throws IOException {
+		int ऐज = 22;
+		ऐज = ऐज(ऐज+1);
+		System.out.println(ऐज);
+		System.out.println("ऐज");
+	}
+}
+
+Note: Since java supports unicode character set therefore we can use any unicode character which belongs to international language can be used as an identifier.
+
+Ex:
+  char x = 65; //int(0-65535)  valid
+  char x = 65L;  invalid
+  char x = 65.0;  invalid
+  char x = 65.0f;  invalid
+  char x = 65535;  valid
+  char x = 65536;  invalid
+
+Types of character literal:
+   a. char literal: 'a','@','9'
+   b. unicode character literal: '\uxxxx'
+      where xxxx is an exact place hexa decimal digits
+      Ex:
+        Unicode representation of 'A' => '\u0041'
+          '\u0041'   valid
+          '\u41'     invalid
+          '\uA'      invaliid
+          \u0041     valid
+What is the difference b/w given unicode literals?
+1. '\u0041' => 'A'
+2. \u0041   => A
+3. "\u0041" => "A"   
+            
+Ex: Consider given assignments
+Case1: byte to char conversion(invalid)
+        byte x = ?;
+	char y = x;
+
+Case2: char to byte conversion (invalid)
+	char a = 10;
+	byte b = a;
+
+Case3:
+        char x = (byte)255;
+Note: From jdk7 onwards we can also write an integer number as binary literal.
+    10,010,0x10,0b10
+
+int:
+----
+> Size: 4bytes
+> Range: -2147483648 to 2147483647
+> If you want to store whole numbers then you should go for int.
+  0b10101011111002
+ 
+  int x = 2147483647;
+
+> Java supports int type of literal for given range only
+  -2147483648 to 2147483647
+  excepting given int literal we cant use int type of literal out of given range.
+
+   int x = 2147483648;  invalid: integer number too large
+   int x = 10;  valid
+   int x = 10L;  invalid
+   int x = 10.0f; invalid
+   int x = 10.0;  invalid
+   int x = 'A';   valid
+
+long:  
+----
+> If you want to store very large integer number then you should go for long type.
+> size: 8byte
+> range: - 2^63 to 2^63 -1
+        -9223372036854775808  to 9223372036854775807
+> byte,short,char,int,long type can be implicitly converted into long type.
+  byte x;
+  long a = x; valid
+  
+  short x;
+  long a = x; valid
+
+  char x;
+  long a = x; valid
+
+  int x;
+  long a = x; valid
+
+  long x;
+  long a = x; valid
+
+  long x = 1.0; invalid
+  long x = 1.0f; invalid
+  long x = (long)1.0;  valid
+  long x = (byte)1.0;  valid
+
+Note: byte,short,char,int,long these datatypes can stores only whole numbers, we cant store floating point numbers.
+
+> In order to store floating point numbers java has float and double datatypes at primitive level.
+
+float:
+-----
+size: 4bytes
+range: -3.4*10^38 to 3.4E38
+
+Valid Conversions for float type:
+  float <= byte,short,char,int,long,float
+
+> If you want to store floating point numbers upto six decimal places accuratly then you should go for float type.
+
+  float x = 5.7f;
+  sop(x > 5.7); //true/false
+  sop(x < 5.7); false
+
+
+float: x.xxxxxxyyyyyyyyyyyyyyyyy
+double: x.xxxxxxxxxxxxyyyyyyyyyy
+
+double:
+-------
+size: 8byte
+range: -1.7E308 to 1.7E308
+
+> If you want to represent floating point numbers upto 12 decimal places accuratly then should go for double.
+
+Note: float type will stores decimal data upto 6 decimal places accuratly
+
+
+Note: double type will stores decimal data upto 12 decimal places accuratly
+
+Identify type of literals?
+1. 10  int
+2. '5' char
+3. "5"  String
+4. 10.0  double
+5. 10.0f  float  
+6. 10L    long
+7. 10.0L  Invalid literal in java
+
+boolean:
+--------
+size: undefined(jvm dependent)
+range: true/false
+
+> In order to represent boolean type(true/false) of results oracle has introduced new datatype called boolean.
+
+> boolean type of variables can store only true/false.
+  boolean x = 1;   Invalid
+  System.out.println(x);
+
+  boolean x = (boolean)1;
+  Sop(x);
+> boolean type cant be converted into another primitive type.
+
+Most Imp:
+> Every java classes inherited from java.lang.Object class either directly or indirectly.
+
+> As we know whatever available inside parent class is by default available to the child class through inheritance.
+
+> Object class provides most common functionality which is required for every java class.
+
+> Object class has 11 methods.
+Note: In java we can assign a reference variable either by using same type of object or its child type class object.
+
+> There is no primitive datatype in java by using which we can store string type of contents.
+
+> In C or C++ we can store Strings by using array of characters.
+> But in java we cant store string type of contents using character array.
+   char s[] = "ABC";  INVALID
+
+How to store string type of data in java?
+> There are three API classes available in java by using thats object we can store strings. These classes are available inside java.lang package.
+  a. String
+  b. StringBuffer
+  c. StrignBuilder
+
+String:
+-------
+> Strings are group of characters which is enclosed inside double coate's.
+  Ex: "abc","a23","a",""
+
+> In java strings doesnt ends with '\0' character.
+
+> In java Strings are immutable objects of String class
+
+> Inside memory strings are stored as a object of String class.
+ 
+Note: We cant change state of immutable objects. Hence we cant chage state of String objects.
+
+How many way of creating strings in java?
+> There are two way
+  a. Using new keyword
+     String s = new String("STATE");
+  b. Using String literal
+     String s = "State";
+ 
+What is the difference b/w creating string objects using new and string literal("")?
+
+Case1: Creating a string using new
+> In this process jvm will creates everytime new string object inside heap area.
+
+> In this process jvm will never checks for existing object.
+> Inside heap state of two string objects may be same or different.
+
+Case2: Creating string using literal("")
+> In this process jvm will creates string object inside string constant pool memory.
+  
+Note: String contant pool is a memory(logical) space inside ram which is created and managed by the jvm for every java program.
+
+> Inside SCP memory only string objects are allowed which is created by using double coate's (literal).
+
+> In this process jvm will never creates new object directly, First it will checks for existing object with given state. If existing object is there then jvm will return address of existing object, otherwise it will creates new object inside SCP memory.
+
+> Inside SCP there is no chance of object with duplicate state.
+
+Note: As we know String objects are immutable, once string object is created for given/any state after that we cant change static of existing object. If we are trying to change state of existing object then jvm will creates new object for every result inside heap area.
+
+Note: If two string literals(contant) are concatenated using + operator then its results also stored inside SCP.
+
+  Ex:
+       String s1 = "AB"
+       String s2 = s1+"CD";
+       String s3 = "AB"+"CD";
+       sop(s2==s3);
+  
+ex:
+s1+"AB" => Heap
+"CD"+"AB" => SCP
+
+s1.concat("AB"); =>HEAP
+"CD".concat("AB") => HEAP
+
+How many way of comparing two string objects?
+1. Using == operator (identity comparison)
+
+2. Using equals() method of String class 
+   (state comparison in case sensitive mannors)
+
+3. Using equalsIgnoreCase() method
+   (state comparison in case insensitive mannors)
+ 
+Comparing two Strings using == operator:
+> By using == or != operator we can compare identity(address) of two string objects.
+
+> If two references are pointing same object then it will returns true else returns false.
+
+equals():
+=========
+> It is non-static method of String class.
+
+> By using equals() method we can compare state(contents) of two string objects in case sensitive mannors.
+   public boolean equals(Object obj){
+     
+   }
+> If state of two string objects are same then it will returns true else returns false.
+  syntax:
+      s1.equals(s2);
+      s1.equals("abc");
+      "abc".equals(s1);
+      "abc".equals("xyz")
+
+equalsIgnoreCase():
+> By using this method we can compare state of two string object in case insensitive mannors.
+
+String concatenation operator(+):
+---------------------------------
+> By using this operator we can concatenate state of two string objects.
+
+> It is pre overloaded operator in java.
+Note: Java doesnt supports operator overloading, But in java there are some operators which is already overloaded by oracle.
+
+> In case of + operator if both operands are numeric type then it will performs addition of two numbers.
+   10+2.5 => 12.5
+
+> If any operand is string type (may be both) then it will performs concatenation.
+
+> By using this operator we can concatenate a string with any type of object. 
+
+> If this operator will performs concatenation then result is always String.
+
+ex:
+    "AB" + "CD"  => "ABCD"
+    "AB" + 5     => "AB5"
+    5 + "AB"     => "5AB"
+    "ABC"+true   => "ABCtrue"
+    "ABC"+null   => "ABCnull"
+    "ABC"+2.5    => "ABC2.5"
+Note: "" is also valid string object in java
+      "".length() => 0
+      "abc10".length() => 5
+  
+Ex:
+   int x = 10,y = 20;
+   
+   "ABC"+x   => "ABC"+10 => "ABC10"
+   x+""      => 10+"" => "10"
+   x+","     => 10+"," => "10,"
+   x + "," + y   =>10 + "," + y
+                 => "10,"+y
+                 => "10,"+20
+                 => "10,20"
+   sop(x,y);   invalid
+   sop(x + "," + y)  => sop("10,20")
+
+What is the difference b/w concat() method and String concatenation operator +?
+
+	+ Operator		concat() method
+--------------------------------------------------------------
+1. It is overloaded operator	1. It is method
+
+2. Can be used for addition,	2. Can be used for String 
+   String concatenation		   concatenation
+
+3. String can be concated with	3. String can be concatenated
+   any type of literal or value	   with another string only
+
+4. If both operands are string  4. Results always stored inside
+   literal then results are 	   heap area.
+   stored inside SCP               Ex: "AB".concat("CD")
+   Ex: "AB"+"CD"
+  sop(5+"WELCOME"-2);   Error
+  sop(5+"5");  => "55" => 55
+
+Important Methods of String class:
+> length(): 
+> trim()
+> toUpperCase()
+> toLowerCase()
+> substring()
+> intern()  (imp)
+> indexOf()
+> lastIndexOf()
+> charAt()
+> replace()
+> valueOf()
+> hashCode()
+> toString()
+> equals()
+  
+length():
+> It will returns length of the string
+  "".length() => 0
+  "ABC".length()  => 3
+  "Wel\0Come".length() => 8
+
+intern():
+> It creates equivalent string object inside SCP for current object.
+> With the help of intern() method we can transfer objects of string which is present inside heap area to the SCP memory.
+ 
+   String s = "ABC";
+   s = s.toLowerCase().intern();  "abc" => SCP 
+
+
+Q: Why Strings are immutable object in java?
+Q: What is advantage of immutable behaviour of String?
+   
+Q: Why SCP?
+> By using SCP memory we can use memory space efficiently.
+> By using concept of SCP memory we reduce required memory space for string object.
+> By using pooling concept we can reduce waiting time. The main purpose of pooling concept is providing ready made services(existing objects)
+  
+Q: Why strings are immutable objects?
+Ans: As we know if multipal objects want to store same type of string contents for this purpose jvm doesnt creates seperate memory space. In this case only one object is created inside SCP memory which is pointing by the all objects. If String objects are mutable then there may be chance of data inconsistency problem. To overcome above data inconsistency problem string objects are immutable in java.
+
+Advantage:
+1. It will improves system performance
+2. It will promotes efficient use of memory.
+
+trim():  
+      String trim();
+> By using this method we can suppress heading and trailing extra white spaces from a string.
+  "   ABC PQR   ".trim() => "ABC PQR"  
+
+toUpperCase()
+  String toUpperCase();
+> By using this method we can convert lowercase string to uppercase.
+
+toLowerCase()
+  String toLowerCase();
+> This method converts uppercase alphabets into equivalent lowercase alphabets.
+
+charAt():
+   char charAt(int index);
+> It will returns single character from given index.
+  "ABCD".charAt(0) => 'A'
+  "ABCD".charAt(1) => 'B'
+  "ABCD".charAt(4) => RE: StringIndexOutOfBoundsException
+  "ABCD".charAt(-1) => RE: StringIndexOutOfBoundsException
+  C or C++: s[i]
+  Java    : s.charAt(i)  -(Read Only)
+ 
+indexOf():   
+  int indexOf(int chr);
+> It will returns indexed position of given character for their first occurrence. 
+   
+  "ABCD".indexOf('C') => 2
+  "CORPORATION".indexOf('O') => 1
+  "ABCD".indexOf('P')        => -1
+ 
+indexOf(int chr, int begin):
+> It will returns first occurrence of given character chr where search operation starts from 'begin' index onwards.
+
+   "CORPORATION".indexOf('O',5);
+
+lastIndexOf():
+> It will returns indexed position of specified character for their last occurrence.
+ 
+substring():
+  String substring(int begin);
+
+> By using this method we can return required sub string from main string.
+   0123456
+  "WELCOME".substring(3) => "COME"
+ 
+> It will returns substring from specified begin index to end of the string
+
+substring(int begin,int end):
+> It will returns substring from 'begin' index to index 'end'-1.
+
+replaceAll(String replaced,String replacedby):
+> "BLACK AND BLUE".replaceAll("BL","J");
+   
+ 
+ valueOf()
+===========
+> By using this method we can convert any java object or literal or primitive into String object.
+
+> It will returns equivalent string object for given literal.
+   int x = 10;
+   10+"" => "10"
+   String.valueOf(10)=> "10"
+   char a[]={'a','b','c'};
+   ""+a  => "CN@hc"
+   String.valueOf(a) => "abc"
+
+
+startsWith()
+> boolean startsWith(String start);
+  "ORACLE".startsWith("OR"); =>true
+  "ORACLE".startsWith("OP"); =>false 
+
+endsWith()  
+> By using this method we can check, is current string terminated by the given string.
+
+split()
+=======
+> By using this method can split a string into string type of array based seperater or delimeters. 
+
+compareTo():
+  int compareTo(Object obj);
+
+> By using this method we can compare two string objects. But its result is always int.
+
+> It will returns difference of ascii values of non-matching character. If both strings having same character(state) then it will returns 0.
+
+  if
+     s1 > s2 : +ve
+     s1 < s2 : -ve
+     s1 = s2 : 0   
+ 
+> hashCode()
+> toString()
+> equals()  
+
+hashCode()
+> By using hashCode() method we can access hash code address of an object.
+   public int hashCode(); 
+> Object class provided implementation of hashCode() always returns JVM created hash code address based on identity of an object.
+
+> If two references are pointing same object then hashcode for that reference is always same. 
+
+> Any body can provide our own hash code address based on state of an object by providing new implementation for hashCode() method inside our user define class(child of Object class).
+
+How many way of accessing jvm created hash code for any object?
+a. By using hashCode() method of Object class.
+   > This method will returns jvm created hash code address based on identity of an object
+   > It can be overridden inside child class.
+b. By using static method of System class called identityHashCode()
+   > It will always returns jvm created hash code.
+ 
+equals()
+========
+> It is non-static method of java.lang.Object class.
+  public boolean equals(Object obj);
+
+> By using this method we can compare two java objects.
+
+  Object(state,identity)
+
+Case1:
+  Object:
+    equals(): identity(==)
+  String:
+    equals(): state
+  s1.equals(s2);   --String Implementation
+Case2:
+  Object:
+    equals(): identity(==)
+  Numeric:
+
+    n1.equals(n2)  --Object Implementation
+
+Case3:
+  Object:
+    equals(): identity(==)
+  Numeric:
+    equals(): state
+       n1.equals(n2)  --Numeric Implementation
+
+toString():
+-----------
+   public String toString();
+
+> It is non-static method of Object class
+> Object class toString() method returns Classname@hashcode address.
+
+> It is implicitly executed in given cases.
+  case1: Whenever object reference of any class passing to the println() method.
+         Sample s = .......
+         System.out.println(s);
+         It is converted as
+                   System.out.println(s.toString());
+
+   case2:
+         Point p = new Point();
+         String s = "ABC" + p; => s = "ABC" + p.toString()
+
+> By using toString() method we can print state of java object.
+
+Compare given code:
+Case1:
+  String s = null;
+  System.out.println(s); 
+  Output: null
+Case2:
+  String s = null;
+  System.out.println(s.toString()); 
+  output: NullPointerException
+
+Case3:
+  System.out.println(null);  //char[],String
+  CError
+ 
+Important Constructors of String class:
+--------------------------------------
+String()
+> Using this constructor we can create empty String object.
+
+String(String)
+> It will creates equivalent String object for given string literals.
+
+String(char[])
+> It will creates equivalent string object for given character array.
+   char[] a = {'A','B','C'};
+   String s = new String(a);
+   
+String(char[], int index, int count);
+String(int[]):
+   int[] a = {65,66,67};
+   String s = new String(a);
+   > Using this constructor we can create equivalent string object for given int array.
+
+ 
+String(byte[]):
+   byte[] a = {65,66,67};  //0 to 127
+   String s = new String(a);
+
+> Using this constructor we can create equivalent string object for given byte array.
+
+
+String(java.lang.StringBuffer) and String(java.lang.StringBuilder) 
+
+> By using this constructor we can create equivalent string object for given StringBuffer or StringBuilder.
+
+StringBuilder vs StringBuffer:
+------------------------------ 
+> By using SB we can create mutable state for String type of data
+
+> StringBuilder and StringBuffer are mutable objects in java.
+
+How many way of creating SB object?
+> We can create SB type of object only by using new keyword (Heap)
+
+> SCP memory is not applicable for SB objects.
+  StringBuilder sb = "ABC"; CError
+
+Property	String		StringBuilder	StringBuffer 
+----------------------------------------------------------------
+immutable	Yes		No		No	
+object         
+
+String Literal  Yes		No		No
+("")		s = "ABC"       sb="ABC"-INV    sb="ABC" -inv
+
+SCP Memory	Yes		No              No
+
+overriding	Yes		No		No
+equals() 	(Statewise)	(Identitywise)	(Identitywise)
+(state)		
+
+overriding	Yes		No		No
+hashCode()
+
+Thread safe	Yes		No		Yes
+ 
+Version		1.0v		1.5v		1.0v
+
+Note:StringBuffer and StringBuilder class having almost same methods but StringBuilder methods declared as synchronized therefore it is considered as thread excepting that difference both class having same properties.
+
+Note: String class having overriding equals() and hashCode() methods based on state, but StringBuilder and StringBuffer doesnt provides overriding equals() and hashCode() method.
+
+ 
+Note: By using equals() method if we are trying to compare different type of objects, in this case equals() method returns false without performing any comparison.
+   s.equals(sb) => false
+   s.equals(10) => false
+Note: By using == operator we can compare only same type of reference or parent type reference can be compare with child type reference.
+      s1==sb1  => CError
+
+Array: (Most Imp) 
+-----------------
+> Array
+> Var args method (...)
+> Command Line Argument
+
+Introduction:
+> If you want to store data/values then you should go for variables, But variable is best suitable for storing small amount of data. If you want to store 
+large/huge amount of data then variable is worst choice.
+
+> If you want to store huge amount of data then array is a best choice.
+
+Definition:
+> Array is an indexed collection/representation of homogenous data elements.
+
+> In C Language array is allocated statically therefore we cant decide array size at runtime. But in java array is created dynamically by using new keyword in the 
+form of objects inside heap area.
+
+> In java array is fixed in size, once array is created inside memory we are not able to change its size.
+
+Syntax:
+   datatype[] a = new datatype[size];
+   datatype[] a = new datatype[]{i1,i2,i3,...in};
+   datatype[] a = {i1,i2,i3...in}; 
+ 
+   Ex:
+      int[] a = new int[5];  //[0,0,0,0,0]
+      int[] a = new int[]{10,20,30,40,50};
+      int[] a = {10,20,30,40,50}; 
+
+      int[] a = new int[5]{10,20,30,40,50};  invalid
+      int a[5];  invalid
+  
+How to create array in java?
+> In java array creation process divided into three categories
+1. Declaration
+   > Declaring an array is nothing but it is a process of declaring reference of array type.
+   > Syntax:
+       datatype[] a; //recommended
+       datatype []a;
+       datatype a[];
+   > int a[];
+   > At the time of array declaration we  never required array size information.
+   > At the time of array declaration we cant pass array size
+     int a[5];  invalid
+   > At the time of array declaration memory space never allocated for array elements
+
+ 
+2. Creation
+   > Creating an array is nothing but it is process of allocated memory space for array elements in the form of java object.
+
+   > Actual memory allocation for array elements will be performed by the jvm in this step. Therefore array size is required at the time of array creation.
+     new int[5];  //valid: creation
+     new int[];   //invalid
+ 
+3. Initialization
+   > This is the process of providing initial value for all array elements.
+   > If explicit initialization is not there then jvm will provides default value for each array elements based on their datatype.
+   
+Rules:
+=====   
+> We can create primitive array as well as reference array. Whenever we are creating reference array then inside array object memory is allocated for refrences 
+not for objects.
+
+> At the time of array declaration we cant supply array size.
+  int a[5];  invalid
+
+> At the time of array creation(using new) we should supply array size information
+  new int[5];  valid
+
+> Array size must be int type (int,byte,char,short)
+  new int[5]; valid
+  new int[(byte)5]; valid
+  new int['A'];    valid
+  new int[5L];   invalid
+  new int[5.0f]; invalid
+  new int[5.0];  invalid
+  new int[(int)5L]; valid
+  new int[true];  invalid
+  new int["10"];  invalid
+> We can create any type of array
+  int[] a = new int[5];
+  String[] a = new String[5];
+  Emp[] e = new Emp[5];
+
+> In java array size must be +ve number or zero.
+  new int[0];  valid
+> In C and C++ we cant create an array with zero size but in java zero size array is allowed.
+
+> Array size cant be negative, in this case code will compile successfully, because java compiler only checks datatype of array size. It will never checks for range 
+of the size.
+
+> If array is -ve then there is no compiletime error but at runtime jvm will throw an exception called "NegativeArraySizeException".
+ 
+> Inside each array object jvm will creates special property called as 'length', length is repsonsible for storing maximum capacity of array.
+    public final int length;
+> Since length is public therefore using array object refernce length can be accessed anywhere.
+
+> Since length is final therefore we cant change its value
+  a.length = 5;  invalid
+
+> length is read only.
+
+> if explicit initialization is not there then jvm will initializing all array elements by their default values based on datatype.
+
+> Array elements can be accessed using their indexes, where index of first element is 0 and index of last element is length-1.
+
+> Whenever we are accessing array element for invalid indexed position in this case code will compile successfully. But at runtime JVM will throw an exception 
+called as: "ArrayIndexOutOfBoundsException".
+
+ new int[-5];  RE: NASE
+ a[-ve] or a[length+]; RE: AIOOBE
+
+> In java we can assign one array reference to another reference of same type of array.
+  
+> If we are assigning one array to another array then in this case datatype and number of dimenssions of array reference should be same.
+Case1: Valid
+   int[] a = null;
+   int[]  b = a;    
+ 
+Case2: Valid
+   int[] a = new int[5];
+   int[]  b = new int[2];  
+
+   a = b;
+   b = a; 
+Case3: Invalid
+   int[][] a = null;
+   int[]   b = ?;
+
+   a = b;
+   b = a; 
+Case4: Invalid
+     byte[] x = null;
+     int[]  y = null;
+     y = x;
+
+Case5:
+    Object a = new int[5];   valid
+    Object b = new int[5][2][3][1]; valid
+    Object c = new Point[2][3][4];
+     
+> At primitive level some implicit conversions performed by the compiler ie. byte to int,int to long...etc
+   byte x = 10;
+   int y = x; valid
+> But this implicit conversion is not applicable for array.
+  byte[] b=null;
+  int[] a = b;   invalid
+
+> As we know in java array is created in the form of objects. For every array type jvm will creates runtime classes inside ram memory. which is known as internal classes, these internal classes cant be seen by the programmar.
+
+> In java every array internal classes impliments Serializable interface, therefore array can participates in serialization process.
+
+Q: Is it possible for array to participate in serialization?
+Ans: Yes, Because by default any type of array impliments Serializable interface.
+
+Q: Is it possible for array to participate in cloning?
+ans: Yes
+   Object a = new int[5];
+   Serializable s = new int[5];
+   Cloneable c = new int[5];
+How to know super class information for given object or classname?
+class A{} 
+class B extends A{}
+class C extends B{}
+class D extends C{}
+ 
+class Sample {
+   static void get(Object a){
+      Class c =a.getClass();   
+	  String s = c.getName()+",";
+      s = s + c.getSuperclass().getName(); //super class name
+
+	  Class[] sc = c.getInterfaces();
+	  for(int i=0;i<sc.length;i++)
+		 s = s+", "+ sc[i].getName();
+	  System.out.println(s);
+   }
+   public static void main(String[] args)throws Exception{
+	  get(new int[0]);
+	  get(new int[0]);
+	  get(new int[0][1]);
+      get(new byte[0]);
+	  get(new String[0]);
+	  get(new Sample[0]);
+   }   
+}
+
+Various types of array declarations:
+ > int a[],b;  //a-1D,b-int
+   a=null; valid
+   b=null; invalid
+
+ > int[] a,b;  //a-1D,b-1D   (Highly recommended)
+
+ > int []a,b;  //a-1D,b-1D
+ > int a[],b[];  //a-1D,b-1D
+
+
+Here No Difference:
+  int a[];
+  int[] a
+  int []a;
+
+Syntax:
+   int[][] a,b; //a-2D,b-2D
+ 
+   int[] []a,b; //a-2D,b-2D
+
+   int []a[],b[]; //a-2D,b-2D
+ 
+
+   int[] []a[],b[]; //a-3D,b-3D
+    
+   int a[][],b;   //a-2D,b-int
+   int a[][],b[],c[][];   //a-2d,b-1D,c-2d
+
+   int[] []a,[]b;   invalid
+
+   int a[],b[];  valid
+   int []a,[]b;  invalid
+
+2D Array:
+---------
+
+1:30 hours (15jan)
